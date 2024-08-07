@@ -12,7 +12,7 @@
 
 <section id="container">
 
-    <h3 style="text-align: center;">배열로 구성된 파라미터 처리하기 id[0], id[1]... </h3>
+    <h3 style="text-align: center;">배열로 구성된 파라미터 처리하기 list[0].id, list[1].id ... </h3>
     <div id="demo-container">
         <form id="form1" name="form1" action="${path}/member/memberArrayParam.do" method="post">
             <h3>회원1</h3>
@@ -112,13 +112,13 @@
                 <div class="col-sm-9">
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="list[1].gender"
-                                id="gender1" value="M"> <label
+                               id="gender1" value="M"> <label
                             class="form-check-label" for="gender1">남</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="list[1].gender"
                                checked="checked" id="gender2" value="F"> <label class="form-check-label"
-                                                              for="gender2">여</label>
+                                                                                for="gender2">여</label>
                     </div>
                 </div>
             </div>
